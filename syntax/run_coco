@@ -1,0 +1,11 @@
+../../Coco/Coco ./Sdf.atg -trace FP -o . -namespace Sdf > ./coco_out.txt
+
+
+mv ./Parser.h ../SdfParser.h
+mv ./Parser.cpp ../SdfParser.cpp
+
+mv ./SdfSynTree.h ..
+mv ./SdfSynTree.cpp ..
+
+mv ./SdfTokenType.h ..
+mv ./SdfTokenType.cpp ..
